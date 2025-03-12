@@ -50,6 +50,7 @@ First set up react environement on VS code and name the folder as test-app
 Create dockerFile as the name of the file
 Write all the codes attach in the below link.
 ![image](https://github.com/user-attachments/assets/73b79672-9e79-452d-bfd7-7fd5556ed730)
+
 For executing the codes run command docker build .
 After running your image will be downloaded.
 
@@ -97,6 +98,7 @@ Port Mapping in Docker allows you to expose a container's internal ports to the 
 When you run a Docker container, it has its own internal network (e.g., port 8080 inside the container), but to access it from the outside world (e.g., your browser or any external service), you need to map that port to a port on your host machine (e.g., localhost:8080).
 
 Command to use it : docker run -p <host_port>:<container_port> <image_name>
+
 <host_port>: The port on your local machine (host) that will be bound to the container.
 <container_port>: The port inside the Docker container that is being exposed.
 <image_name>: The name of the Docker image you are running.
@@ -104,6 +106,7 @@ Command to use it : docker run -p <host_port>:<container_port> <image_name>
 # What if we want to run container of postgress and reddis for example
 Write the configuration as shown in the below attachement in docker-compose.yml file
 ![image](https://github.com/user-attachments/assets/a60c84e2-ff8d-44bd-8469-fbc17afb64bf)
+
 Run commmand docker compose up
 
 # Docker networking
