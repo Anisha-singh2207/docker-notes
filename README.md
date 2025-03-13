@@ -56,41 +56,53 @@ After running your image will be downloaded.
 
 # GENERAL COMMANDS USED IN DOCKER(WINDOWS)
 1.Check Docker version:
- docker --version
+
+# docker --version
  
 2.Display Docker system info:
-docker info
+
+ # docker info
 
 3.Pull an image from Docker Hub:
-docker pull <image_name>
+
+# docker pull <image_name>
 
 4.List all images on your system:
-docker images
+
+# docker images
 
 5.Remove an image:
-docker rmi <image_id>
+
+# docker rmi <image_id>
 
 6.Run a container:
-docker run <options> <image_name>
+
+# docker run <options> <image_name>
 Example: docker run -d -p 8080:80 nginx
 
 7.List running containers:
-docker ps
+
+# docker ps
 
 8.List all containers (running and stopped):
-docker ps -a
+
+# docker ps -a
 
 9.Stop a running container:
-docker stop <container_id>
+
+# docker stop <container_id>
 
 10.Start a stopped container:
-docker start <container_id>
+
+# docker start <container_id>
 
 11.Remove a container:
-docker rm <container_id>
+
+# docker rm <container_id>
 
 12.Remove a stopped container:
-docker container prune
+
+# docker container prune
 
 # What is port mapping
 Port Mapping in Docker allows you to expose a container's internal ports to the host machine so that external applications can access them. This is particularly useful when running web applications or services inside containers, as you need to map the container’s internal ports to the host machine’s ports.
